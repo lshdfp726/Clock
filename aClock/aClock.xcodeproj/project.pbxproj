@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC59F4701F4A7E5A00C514C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC59F46F1F4A7E5A00C514C6 /* main.m */; };
+		EC59F4731F4A7E5A00C514C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC59F4721F4A7E5A00C514C6 /* AppDelegate.m */; };
+		EC59F4761F4A7E5A00C514C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC59F4751F4A7E5A00C514C6 /* ViewController.m */; };
+		EC59F4791F4A7E5A00C514C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC59F4771F4A7E5A00C514C6 /* Main.storyboard */; };
+		EC59F47B1F4A7E5A00C514C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC59F47A1F4A7E5A00C514C6 /* Assets.xcassets */; };
+		EC59F47E1F4A7E5A00C514C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC59F47C1F4A7E5A00C514C6 /* LaunchScreen.storyboard */; };
+		EC59F4891F4A7E5A00C514C6 /* aClockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC59F4881F4A7E5A00C514C6 /* aClockTests.m */; };
+		EC59F4941F4A7E5A00C514C6 /* aClockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC59F4931F4A7E5A00C514C6 /* aClockUITests.m */; };
+		EC59F4A51F4A7E9000C514C6 /* hour.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC59F4A21F4A7E9000C514C6 /* hour.jpg */; };
+		EC59F4A61F4A7E9000C514C6 /* min.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC59F4A31F4A7E9000C514C6 /* min.jpg */; };
+		EC59F4A71F4A7E9000C514C6 /* second.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC59F4A41F4A7E9000C514C6 /* second.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC59F4851F4A7E5A00C514C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC59F4631F4A7E5A00C514C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC59F46A1F4A7E5A00C514C6;
+			remoteInfo = aClock;
+		};
+		EC59F4901F4A7E5A00C514C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC59F4631F4A7E5A00C514C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC59F46A1F4A7E5A00C514C6;
+			remoteInfo = aClock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC59F46B1F4A7E5A00C514C6 /* aClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC59F46F1F4A7E5A00C514C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC59F4711F4A7E5A00C514C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC59F4721F4A7E5A00C514C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC59F4741F4A7E5A00C514C6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC59F4751F4A7E5A00C514C6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC59F4781F4A7E5A00C514C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC59F47A1F4A7E5A00C514C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC59F47D1F4A7E5A00C514C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC59F47F1F4A7E5A00C514C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC59F4841F4A7E5A00C514C6 /* aClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC59F4881F4A7E5A00C514C6 /* aClockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aClockTests.m; sourceTree = "<group>"; };
+		EC59F48A1F4A7E5A00C514C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC59F48F1F4A7E5A00C514C6 /* aClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aClockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC59F4931F4A7E5A00C514C6 /* aClockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aClockUITests.m; sourceTree = "<group>"; };
+		EC59F4951F4A7E5A00C514C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC59F4A21F4A7E9000C514C6 /* hour.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hour.jpg; sourceTree = "<group>"; };
+		EC59F4A31F4A7E9000C514C6 /* min.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = min.jpg; sourceTree = "<group>"; };
+		EC59F4A41F4A7E9000C514C6 /* second.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = second.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC59F4681F4A7E5A00C514C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC59F4811F4A7E5A00C514C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC59F48C1F4A7E5A00C514C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC59F4621F4A7E5A00C514C6 = {
+			isa = PBXGroup;
+			children = (
+				EC59F46D1F4A7E5A00C514C6 /* aClock */,
+				EC59F4871F4A7E5A00C514C6 /* aClockTests */,
+				EC59F4921F4A7E5A00C514C6 /* aClockUITests */,
+				EC59F46C1F4A7E5A00C514C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC59F46C1F4A7E5A00C514C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC59F46B1F4A7E5A00C514C6 /* aClock.app */,
+				EC59F4841F4A7E5A00C514C6 /* aClockTests.xctest */,
+				EC59F48F1F4A7E5A00C514C6 /* aClockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC59F46D1F4A7E5A00C514C6 /* aClock */ = {
+			isa = PBXGroup;
+			children = (
+				EC59F4A11F4A7E9000C514C6 /* Resource */,
+				EC59F4711F4A7E5A00C514C6 /* AppDelegate.h */,
+				EC59F4721F4A7E5A00C514C6 /* AppDelegate.m */,
+				EC59F4741F4A7E5A00C514C6 /* ViewController.h */,
+				EC59F4751F4A7E5A00C514C6 /* ViewController.m */,
+				EC59F4771F4A7E5A00C514C6 /* Main.storyboard */,
+				EC59F47A1F4A7E5A00C514C6 /* Assets.xcassets */,
+				EC59F47C1F4A7E5A00C514C6 /* LaunchScreen.storyboard */,
+				EC59F47F1F4A7E5A00C514C6 /* Info.plist */,
+				EC59F46E1F4A7E5A00C514C6 /* Supporting Files */,
+			);
+			path = aClock;
+			sourceTree = "<group>";
+		};
+		EC59F46E1F4A7E5A00C514C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC59F46F1F4A7E5A00C514C6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC59F4871F4A7E5A00C514C6 /* aClockTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC59F4881F4A7E5A00C514C6 /* aClockTests.m */,
+				EC59F48A1F4A7E5A00C514C6 /* Info.plist */,
+			);
+			path = aClockTests;
+			sourceTree = "<group>";
+		};
+		EC59F4921F4A7E5A00C514C6 /* aClockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC59F4931F4A7E5A00C514C6 /* aClockUITests.m */,
+				EC59F4951F4A7E5A00C514C6 /* Info.plist */,
+			);
+			path = aClockUITests;
+			sourceTree = "<group>";
+		};
+		EC59F4A11F4A7E9000C514C6 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				EC59F4A21F4A7E9000C514C6 /* hour.jpg */,
+				EC59F4A31F4A7E9000C514C6 /* min.jpg */,
+				EC59F4A41F4A7E9000C514C6 /* second.jpg */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC59F46A1F4A7E5A00C514C6 /* aClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC59F4981F4A7E5A00C514C6 /* Build configuration list for PBXNativeTarget "aClock" */;
+			buildPhases = (
+				EC59F4671F4A7E5A00C514C6 /* Sources */,
+				EC59F4681F4A7E5A00C514C6 /* Frameworks */,
+				EC59F4691F4A7E5A00C514C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = aClock;
+			productName = aClock;
+			productReference = EC59F46B1F4A7E5A00C514C6 /* aClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC59F4831F4A7E5A00C514C6 /* aClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC59F49B1F4A7E5A00C514C6 /* Build configuration list for PBXNativeTarget "aClockTests" */;
+			buildPhases = (
+				EC59F4801F4A7E5A00C514C6 /* Sources */,
+				EC59F4811F4A7E5A00C514C6 /* Frameworks */,
+				EC59F4821F4A7E5A00C514C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC59F4861F4A7E5A00C514C6 /* PBXTargetDependency */,
+			);
+			name = aClockTests;
+			productName = aClockTests;
+			productReference = EC59F4841F4A7E5A00C514C6 /* aClockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC59F48E1F4A7E5A00C514C6 /* aClockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC59F49E1F4A7E5A00C514C6 /* Build configuration list for PBXNativeTarget "aClockUITests" */;
+			buildPhases = (
+				EC59F48B1F4A7E5A00C514C6 /* Sources */,
+				EC59F48C1F4A7E5A00C514C6 /* Frameworks */,
+				EC59F48D1F4A7E5A00C514C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC59F4911F4A7E5A00C514C6 /* PBXTargetDependency */,
+			);
+			name = aClockUITests;
+			productName = aClockUITests;
+			productReference = EC59F48F1F4A7E5A00C514C6 /* aClockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC59F4631F4A7E5A00C514C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = lsh726;
+				TargetAttributes = {
+					EC59F46A1F4A7E5A00C514C6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = K74UKU9UG7;
+						ProvisioningStyle = Automatic;
+					};
+					EC59F4831F4A7E5A00C514C6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = K74UKU9UG7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC59F46A1F4A7E5A00C514C6;
+					};
+					EC59F48E1F4A7E5A00C514C6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = K74UKU9UG7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC59F46A1F4A7E5A00C514C6;
+					};
+				};
+			};
+			buildConfigurationList = EC59F4661F4A7E5A00C514C6 /* Build configuration list for PBXProject "aClock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC59F4621F4A7E5A00C514C6;
+			productRefGroup = EC59F46C1F4A7E5A00C514C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC59F46A1F4A7E5A00C514C6 /* aClock */,
+				EC59F4831F4A7E5A00C514C6 /* aClockTests */,
+				EC59F48E1F4A7E5A00C514C6 /* aClockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC59F4691F4A7E5A00C514C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC59F4A61F4A7E9000C514C6 /* min.jpg in Resources */,
+				EC59F47E1F4A7E5A00C514C6 /* LaunchScreen.storyboard in Resources */,
+				EC59F4A51F4A7E9000C514C6 /* hour.jpg in Resources */,
+				EC59F47B1F4A7E5A00C514C6 /* Assets.xcassets in Resources */,
+				EC59F4791F4A7E5A00C514C6 /* Main.storyboard in Resources */,
+				EC59F4A71F4A7E9000C514C6 /* second.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC59F4821F4A7E5A00C514C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC59F48D1F4A7E5A00C514C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC59F4671F4A7E5A00C514C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC59F4761F4A7E5A00C514C6 /* ViewController.m in Sources */,
+				EC59F4731F4A7E5A00C514C6 /* AppDelegate.m in Sources */,
+				EC59F4701F4A7E5A00C514C6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC59F4801F4A7E5A00C514C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC59F4891F4A7E5A00C514C6 /* aClockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC59F48B1F4A7E5A00C514C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC59F4941F4A7E5A00C514C6 /* aClockUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC59F4861F4A7E5A00C514C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC59F46A1F4A7E5A00C514C6 /* aClock */;
+			targetProxy = EC59F4851F4A7E5A00C514C6 /* PBXContainerItemProxy */;
+		};
+		EC59F4911F4A7E5A00C514C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC59F46A1F4A7E5A00C514C6 /* aClock */;
+			targetProxy = EC59F4901F4A7E5A00C514C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC59F4771F4A7E5A00C514C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC59F4781F4A7E5A00C514C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC59F47C1F4A7E5A00C514C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC59F47D1F4A7E5A00C514C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC59F4961F4A7E5A00C514C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC59F4971F4A7E5A00C514C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC59F4991F4A7E5A00C514C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K74UKU9UG7;
+				INFOPLIST_FILE = aClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Transform3D-square.lsh726.aClock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC59F49A1F4A7E5A00C514C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K74UKU9UG7;
+				INFOPLIST_FILE = aClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Transform3D-square.lsh726.aClock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC59F49C1F4A7E5A00C514C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K74UKU9UG7;
+				INFOPLIST_FILE = aClockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Transform3D-square.lsh726.aClockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aClock.app/aClock";
+			};
+			name = Debug;
+		};
+		EC59F49D1F4A7E5A00C514C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K74UKU9UG7;
+				INFOPLIST_FILE = aClockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Transform3D-square.lsh726.aClockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aClock.app/aClock";
+			};
+			name = Release;
+		};
+		EC59F49F1F4A7E5A00C514C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = K74UKU9UG7;
+				INFOPLIST_FILE = aClockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Transform3D-square.lsh726.aClockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = aClock;
+			};
+			name = Debug;
+		};
+		EC59F4A01F4A7E5A00C514C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = K74UKU9UG7;
+				INFOPLIST_FILE = aClockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Transform3D-square.lsh726.aClockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = aClock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC59F4661F4A7E5A00C514C6 /* Build configuration list for PBXProject "aClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC59F4961F4A7E5A00C514C6 /* Debug */,
+				EC59F4971F4A7E5A00C514C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC59F4981F4A7E5A00C514C6 /* Build configuration list for PBXNativeTarget "aClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC59F4991F4A7E5A00C514C6 /* Debug */,
+				EC59F49A1F4A7E5A00C514C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC59F49B1F4A7E5A00C514C6 /* Build configuration list for PBXNativeTarget "aClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC59F49C1F4A7E5A00C514C6 /* Debug */,
+				EC59F49D1F4A7E5A00C514C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC59F49E1F4A7E5A00C514C6 /* Build configuration list for PBXNativeTarget "aClockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC59F49F1F4A7E5A00C514C6 /* Debug */,
+				EC59F4A01F4A7E5A00C514C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC59F4631F4A7E5A00C514C6 /* Project object */;
+}
