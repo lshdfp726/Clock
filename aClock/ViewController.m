@@ -52,10 +52,13 @@
     if (animated) {
         CABasicAnimation *animation = [CABasicAnimation animation];
         animation.fillMode = kCAFillModeBackwards;
+        animation.removedOnCompletion = NO;
+        animation.fromValue = [handView.layer.presentationLayer valueForKey:@"transform"];
         animation.keyPath = @"transform";
         animation.toValue = [NSValue valueWithCATransform3D:transform];
         animation.duration = 0.5;
         animation.delegate = self;
+        animation.timingFunction = [CAMediaTimingFunction functionWithControlPoints:1 :0 :0.95 :1];
         [animation setValue:handView forKey:@"handView"];
         [handView.layer addAnimation:animation forKey:nil];
         [self updateHandsAnimated:NO];
